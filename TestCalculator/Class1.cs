@@ -22,7 +22,7 @@ namespace TestCalculator
         [Test]
         public void ThirdTestAdd()
         {
-            Assert.AreEqual(-1, Calculator.Calculator.Add(-2, -1));
+            Assert.AreEqual(-3, Calculator.Calculator.Add(-2, -1));
         }
 
         //Minus
@@ -79,7 +79,7 @@ namespace TestCalculator
         [Test]
         public void ThirdTestMultiplier()
         {
-            Assert.AreEqual(-9, Calculator.Calculator.Divide(-3, 3));
+            Assert.AreEqual(-9, Calculator.Calculator.Multiplier(-3, 3));
         }
     }
 
